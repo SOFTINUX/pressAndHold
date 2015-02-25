@@ -5,6 +5,9 @@ Are you as tired as I am of "Are you sure?" dialog boxes to make sure users don'
 
 Also, I totally stole this idea from someone else but I can't remember who it was or where I saw it or even when. 
 
+## Demo
+ http://superboltstudios.github.io/pressAndHold/
+
 ## Usage
 1. Include jQuery of course:
 
@@ -43,4 +46,4 @@ Also, I totally stole this idea from someone else but I can't remember who it wa
   The control has completed holding regarless of duration.
 
 ## Demo
- http://naptown.com/pressAndHold/
+ http://superboltstudios.github.io/pressAndHold/
