@@ -16,7 +16,7 @@
 			progressIndicatorRemoveDelay: 300,
 			progressIndicatorColor: "#ff0000",
 			progressIndicatorOpacity: 0.6,
-			progressIndicatorPosition: top
+			progressIndicatorPosition: "top"
 		};
 
 	function Plugin(element, options) {
