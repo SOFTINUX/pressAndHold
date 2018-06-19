@@ -15,8 +15,8 @@
 			holdTime: 700,
 			progressIndicatorRemoveDelay: 300,
 			progressIndicatorColor: "#ff0000",
-			progressIndicatorOpacity: 0.6
-
+			progressIndicatorOpacity: 0.6,
+			progressIndicatorPosition: top
 		};
 
 	function Plugin(element, options) {
@@ -41,7 +41,7 @@
 				position: 'relative'
 			});
 
-			progressIndicatorHTML = '<div class="holdButtonProgress" style="height: 100%; width: 100%; position: absolute; top: 0; left: -100%; background-color:' + this.settings.progressIndicatorColor + '; opacity:' + this.settings.progressIndicatorOpacity + ';"></div>';
+			progressIndicatorHTML = '<div class="holdButtonProgress" style="height: 100%; width: 100%; position: absolute; ' + this.settings.progressIndicatorPosition + ': 0; left: -100%; background-color:' + this.settings.progressIndicatorColor + '; opacity:' + this.settings.progressIndicatorOpacity + ';"></div>';
 
 			$(this.element).prepend(progressIndicatorHTML);
 
